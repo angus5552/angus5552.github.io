@@ -1,0 +1,13 @@
+/* 초기 상태에서는 섹션을 숨깁니다 */
+#toggleCheckbox {
+    display: none;
+}
+
+#toggleSection {
+    display: none;
+}
+
+/* 체크박스가 체크되었을 때 섹션을 표시합니다 */
+#toggleCheckbox:checked + #toggleSection {
+    display: block;
+}
