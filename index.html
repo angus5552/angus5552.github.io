@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>ML Engineer 김영인</title>
+	<title>김영인 포트폴리오</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -39,7 +39,7 @@
 				<ul class="navbar-nav nav ml-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link"><span>Skills</span></a></li>
+					<li class="nav-item"><a href="#Stack" class="nav-link"><span>Stack</span></a></li>
 					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 					<li class="nav-item"><a href="#works" class="nav-link"><span>Experience</span></a></li>
 					<li class="nav-item"><a href="#edu" class="nav-link"><span>Education</span></a></li>
@@ -53,11 +53,11 @@
 			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
 				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
 					<div class="text text-center">
-						<span class="subheading">Hey! I am</span>
 						<h1>김영인</h1>
 						<h2 class="text-primary"><u>
-								MLOPS/머신러닝 엔지니어
-							</u></h2>
+								MLOps 엔지니어<br>
+								머신러닝 엔지니어
+						</u></h2>
 					</div>
 				</div>
 			</div>
@@ -86,9 +86,9 @@
 							<h1 class="big">About</h1>
 							<h2 class="mb-4">About Me</h2>
 							<p>
-								<b>새로운 기술에 대한 호기심이 많고, <br />
-									새로운 기술을 적용하는 것을 즐기는 <br />
-									머신러닝 엔지니어 입니다.</b>
+								<b>새로운 지식을 연구하여<br />
+									안정적으로 모델이나 제품에 기술을 적용하는 것에<br /> 
+									관심이 많은 MLOps 개발자입니다.</b>
 							</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span> <span>김영인</span></li>
@@ -105,8 +105,8 @@
 								<span>Project complete</span>
 							</p> -->
 							<p><a target="_blank"
-									href="https://drive.google.com/file/d/1paK1rJ7n2YPDBh2DJ9g4ua2zrVzW0i8U/view?usp=sharing"
-									class="btn btn-primary py-3 px-3">이력서 다운받기</a></p>
+									href="https://docs.google.com/document/d/1E0SP2RmKggftv6Lz1CIbAO-rg4KyOuE5_VMMdcg75oo/edit?usp=sharing"
+									class="btn btn-primary py-3 px-3">이력서 바로가기</a></p>
 						</div>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 				<div class="col-md-3">
 					<nav id="navi">
 						<ul>
-							<li><a href="#skills">Skills</a></li>
+							<li><a href="#Stack">Stack</a></li>
 							<li><a href="#projects">Projects</a></li>
 							<li><a href="#works">Experience</a></li>
 							<li><a href="#edu">Education</a></li>
@@ -129,8 +129,8 @@
 					</nav>
 				</div>
 				<div class="col-md-9" id="core-section">
-					<div id="skills" name="Skills" , style="padding-bottom: 50px;">
-						<h2 class="heading ftco-animate"><b>Skills</b></h2>
+					<div id="Stack" name="Stack" , style="padding-bottom: 50px;">
+						<h2 class="heading ftco-animate"><b>Stack</b></h2>
 						<div class="animate-box ftco-animate ">
 							<!-- <div><p><h3><b class="text-dark">library</b></h3></p></div> -->
 							<p>
@@ -192,21 +192,21 @@
 								<div>
 									<p>
 									<h5> <b class="text-primary">세부 업무 </b></h5>
-									<div>사용자가 데이터만 지정하면, 자동으로 훈련하고, Web으로 모델을 추론할 수 있는 시스템 설계</div>
-									<div>Opensource Repository와 유명 스타트업 기술 블로그에서 MLOps 관련 기술을 조사함</div>
+									<div>데이터 전 처리, TTS 훈련 및 평가를 Web으로 실행 할 수 있도록 훈련 시스템 구성</div>
 									<div><br></div>
 									<div>Airflow와 ML Pipeline을 연동하여 훈련 과정을 Web으로 모니터링 할 수 있게 구성</div>
-									<div>오픈 소스별 컨테이너로 구성하여 어느 환경에서도 배포하기 쉽게 하고 시스템의 안정성을 높임</div>
-									<div>전처리 과정, 훈련 과정, 추론 과정을 image로 관리하여, Airflow가 쉽게 자동화를 하도록 구성</div>
+									<div>DinD를 활용하여 리소스 사용을 최적화하고, 독립된 작업 환경을 제공하여 시스템의 안정성을 높임</div>
+									<div>Airflow Container에서 Run 중단 시 좀비 프로세스가 발생한다는 사실을 발견하고 Run 실행 로직을 DinD로 변환</div>
+									<div>Onnx-Runtime과 Gradio를 통해 연구원들이 웹에서 TTS 품질을 평가할 수 있도록 추론 시스템 구성</div>
+									<div>Gradio와 Promethus를 이용하여 서버의 리소스 정보를 볼 수 있도록 시스템 제공</div>
 									<div><br></div>
-									<div>설계도를 만들고, 설계도를 기준으로 프로젝트 진행 상황을 팀원들에게 공유함</div>
+									<div>MLFlow를 통해서 모델 성능 지표를 제공하고, 평가 단계에서 생성된 TTS 오디오 파일을 연구원이 들을 수 있도록 제공</div>
 									</p>
 								</div>
 								<div>
 									<p>
 									<h5><b class="text-primary">기술 스택</b></h5>
 									<div>기술: Docker-compose, Airflow, MLFlow, Grafana, Gradio, Onnxruntime</div>
-									<div>오픈 소스 플랫폼(Github) 을 참조하여 개발, (Opensource의 라이센스는 모두 검토 완료)</div>
 								</div>
 								</p>
 							</div>
@@ -218,7 +218,7 @@
 							<div class="text pl-3">
 								<span class="date">2023.05-2023.11 (8 개월)</span>
 								<div class="d-flex">
-									<h2>훈련시간이 3배 빠르고 자연스러운 VITS 기반 TTS Model 개발</h2>
+									<h2>자연스럽게 발화하는 Text-to-Speech Model 개발</h2>
 								</div>
 								<span class="position">미디어젠</span>
 								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
@@ -226,7 +226,8 @@
 								<div>
 									<p>
 									<h5> <b class="text-primary">목표 </b></h5>
-									새로운 TTS 모델 알고리즘의 상용화 가능성을 연구를 하고, 이를 Repository로 정리하고 관리 합니다.</p>
+									기존 모델을 대체하는 새로운 Text-To-Speech 모델 개발<br>
+									기존 모델의 Legacy와 History가 방대하여, 이를 개선하고자 새 모델을 개발</p>
 								</div>
 								<div>
 									<p>
@@ -235,18 +236,17 @@
 									<div>관련 논문 12편을 비교 분석하고, Github내 모델 Repository를 조사</div>
 									<div><br></div>
 									<div>MOS Score와 I-RTF가 2위이고, 공식 Repository가 있어 가장 안정적인 성능을 보장하는 모델인 VITS를 선정</div>
-									<div>DDP를 이용하여 다중 GPU 훈련을 통해 기존 모델 훈련시간과 비교하여 3배 빨라짐</div>
-									<div>초중종성으로 음절을 분리하여 발음을 세분화 시켜 입력하여 더 자연스러운 음성을 생성</div>
+									<div>DDP를 이용하여 다중 GPU 훈련을 통해 기존 모델 훈련시간과 비교하여 3주에서 5일로 빨라짐</div>
+									<div>초중종성으로 음절을 분리한 토크나이저 활용, 발음을 세분화 시켜 입력하여 더 자연스러운 음성을 생성</div>
 									<div>Hydra를 이용하여 logger와의 연동을 통해 실험을 쉽게 모니터링 할 수 있게 변경</div>
 									<div><br></div>
-									<div>Gradio를 이용하여 TTS 모델을 Web으로 Hosting, 팀원들이 쉽게 TTS 모델 개발 현황을 알 수 있었음</div>
+									<div>Gradio를 이용하여 TTS 모델을 Onnxruntime으로 직렬화 하여 Web으로 웹으로 제공</div>
 									</p>
 								</div>
 								<div>
 									<p>
 									<h5><b class="text-primary">기술 스택</b></h5>
 									<div>기술: Pytorch-Lightning, Hydra, Docker, Gradio, Onnxruntime</div>
-									<div>오픈 AI 모델/소스 플랫폼(HuggingFace, PapersWithCodes, Github)을 참조하여 개발</div>
 								</div>
 								</p>
 							</div>
@@ -258,25 +258,25 @@
 							<div class="text pl-3">
 								<span class="date">2023.01 ~ 2023.12 (1 년)</span>
 								<div class="d-flex">
-									<h2>적은 데이터를 증강하고 Fine-Tuning 하여 Precision이 94%인 NLU NER 모델 개발</h2>
+									<h2>적은 데이터를 증강하고 Fine-Tuning 하여 NLP NER 모델 개발</h2>
 								</div>
 								<!-- <span class="position">미디어젠</span> -->
 								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
 									style="background-image: url(images/NLU_NER.png);"></div>
 								<div>
 									<p>
-									<h5> <b class="text-primary">목표 </b></h5>카페 키오스크 상품/수량/옵션을 인식하는 NLU NER 모델 개발</p>
+									<h5> <b class="text-primary">목표 </b></h5>카페 키오스크 상품/수량/옵션의 단어를 감지하는 NLP NER 모델 개발</p>
 								</div>
 								<div>
 									<p>
 									<h5> <b class="text-primary">세부 업무 </b></h5>
-									<div>NIPA와 키오스크 업체에서 음성인식 키오스크를 위한 NLU 모델 개발을 요청</div>
-									<div>상품/수량/옵션을 감지하는 NLU NER 모델을 연구</div>
-									<div>HuggingFace에서 3개의 NLU 모델을 조사, 데이터를 수집하기 위해 AI Hub에서 데이터 수집</div>
+									<div>NIPA와 키오스크 업체에서 음성인식 키오스크를 위한 NLP 모델 개발을 요청</div>
+									<div>상품/수량/옵션을 감지하는 NLP NER 모델을 연구</div>
+									<div>HuggingFace에서 3개의 NLP 모델을 조사, 데이터를 수집하기 위해 AI Hub에서 데이터 수집</div>
 									<div><br></div>
 									<div>요약 분류에 뛰어난 Transformer Encoder 모델이고, 한글 데이터로 학습된 KoBert 기반으로 Fine-tuning을 진행함
 									</div>
-									<div>모델에서 빠뜨릴 수 있는 BIO 테그를 보정하여 정확도를 15% 높이는 Edit-Distance 알고리즘 도입</div>
+									<div>모델에서 추론한 BIO 테그를 보정하여 정확도를 15% 높이는 Edit-Distance 알고리즘 도입</div>
 									<div>Rule 기반 문장 생성기를 만들어, 문장을 조합하여 22.5배 많은 문장을 만들어 Corpus의 다양성을 높임</div>
 									<div><br></div>
 									<div>Corpus의 단어와 문장을 패턴을 분석하여 전처리를 진행, 이를 통해 라벨러가 데이터를 분석하는 시간 O(n^4) 에서 O(n)으로 줄임
@@ -287,11 +287,52 @@
 									<p>
 									<h5><b class="text-primary">기술 스택</b></h5>
 									<div>기술: Pytorch-Lightning, Pandas, Word Cloud, Jupyter-notebook</div>
-									<div>오픈 AI 모델/소스 플랫폼(HuggingFace, Github)을 참조하여 개발</div>
 								</div>
 								</p>
 							</div>
 						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2018.06 ~ 2021.12 (3년 6개월)</span>
+								<div class="d-flex">
+									<h2>Embedded ASR Service 개발-</h2>
+								</div>
+								<!-- <span class="position">미디어젠</span> -->
+								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
+									style="background-image: url(images/Auto_ASR.jpg);"></div>
+								<div>
+									<p>
+									<h5> <b class="text-primary">목표 </b></h5>차량 인포테인먼트 스피치 시스템 개발 및 유지보수
+									</p>
+								</div>
+								<div>
+									<p>
+									<h5> <b class="text-primary">세부 업무 </b></h5>
+									<div>자동차에서 사용할 인포테인먼트 시스템의 스피치 서비스를 구현하는 프로젝트</div>
+									<div>스피치에 있는 기능들을 안전하고 견고하게 구현하는것이 목표</div>
+									<div> Speech Spec 및 외부 specification 조사, 선행개발팀의 모델을 Follow-up</div>
+									<div><br></div>
+									<div>근본적인 원인을 분석하고 해결하여 이슈의 수를 20% 줄임</div>
+									<div>Thread-Safe를 준수하는 개발과 Message Queue를 도입하여 시스템의 안정성을 높임</div>
+									<div>Python과 Bash Script를 이용하여 반복되는 IPK 설치, 테스트 자동화 하여 업무 효율을 30% 향상</div>
+									<div>Speech 문서와, 연동되는 Service 문서, 3rd Party에서 제공하는 문서를 분석하여 Speech 시스템의 이해도를 높임
+									</div>
+									<div><br></div>
+									<div>협의할 내용을 로그 기반으로 정리하여 보고, 의사소통을 비용을 감소시킴</div>
+									</p>
+								</div>
+								<div>
+									<p>
+									<h5><b class="text-primary">기술 스택</b></h5>
+									<div>기술: C++14, Restful/Ws Based IPC, Bash Script, Python</div>
+									<div>Telco, 이슈분석 보고 ,문서, 협업은 80% 영어로 진행됨</div>
+								</div>
+								</p>
+							</div>
+						</div>						
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
@@ -325,49 +366,6 @@
 									<p>
 									<h5><b class="text-primary">기술 스택</b></h5>
 									<div>기술: Pytorch-Lightning, Hydra, Fastapi</div>
-									<div>오픈 소스 플랫폼(Github)을 참조하여 개발</div>
-								</div>
-								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2018.06 ~ 2021.12 (3년 6개월)</span>
-								<div class="d-flex">
-									<h2>Embedded ASR Service 개발-</h2>
-								</div>
-								<!-- <span class="position">미디어젠</span> -->
-								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
-									style="background-image: url(images/Auto_ASR.jpg);"></div>
-								<div>
-									<p>
-									<h5> <b class="text-primary">목표 </b></h5>핵심 원인을 해결하는 방식으로 안정적이고 견고한 임베디드 스피치 서비스 개발
-									</p>
-								</div>
-								<div>
-									<p>
-									<h5> <b class="text-primary">세부 업무 </b></h5>
-									<div>“V”사의 자동차에서 사용할 “L”사의 인포테인먼트 시스템의 스피치 서비스를 구현하는 프로젝트</div>
-									<div>스피치에 있는 기능들을 안전하고 견고하게 구현하는것이 목표</div>
-									<div> Speech Spec 및 외부 specification 조사, 선행개발팀의 모델을 Follow-up</div>
-									<div><br></div>
-									<div>이슈의 발생률을 줄이기 위해서, 근본적인 원인을 분석하고 해결하여 이슈의 수를 20% 줄임</div>
-									<div>Thread-Safe를 준수하는 개발과 Message Queue를 도입하여 시스템의 안정성을 높임</div>
-									<div>Python과 Bash Script로 반복되는 업무를 자동화를 함, 업무효율이 30% 증가</div>
-									<div>Speech 문서와, 연동되는 Service 문서, 3rd Party에서 제공하는 문서를 분석하여 Speech 시스템의 이해도를 높임
-									</div>
-									<div><br></div>
-									<div>협의할 내용을 로그 기반으로 정리하여 보고, 의사소통을 비용을 감소시킴</div>
-									</p>
-								</div>
-								<div>
-									<p>
-									<h5><b class="text-primary">기술 스택</b></h5>
-									<div>기술: C++14, Restful/Ws Based IPC, Bash Script, Python</div>
-									<div>Telco, 이슈분석 보고 ,문서, 협업은 80% 영어로 진행됨</div>
 								</div>
 								</p>
 							</div>
@@ -380,21 +378,21 @@
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<h3><b class="text-primary">미디어젠 (5년 7개월)</b></h3>
+								<h3><b class="text-primary">미디어젠 (5년 9개월)</b></h3>
 							</div>
 						</div>
 						<div class="resume-wrap ftco-animate">
 							<div class="text pl-3">
-								<span class="date">2023.05 - 2024.02(10개월)</span>
+								<span class="date">2023.05 - 2024.03(10개월)</span>
 								<h2>Machine Learning Engineer</h2>
 								<span class="position">미디어젠, AIMZ R&D 그룹</span>
 								<p>TTS 모델 연구 개발 및 Training System 개발<br /></p>
 								<b class="text-primary">주요 업무 </b>
 								<div>
-									<div> - PapersWithCode 및 Huggingface에서 TTS 모델 상용화 가능성 연구</div>
+									<div> - TTS 모델 상용화 가능성 연구</div>
 									<div> - TTS 모델 훈련 및 검증</div>
 									<div> - TTS 모델 Repository Refactoring</div>
-									<div> - TTS 훈련 시스템 PoC 개발</div>
+									<div> - TTS 훈련 시스템 개발</div>
 								</div>
 								</p>
 							</div>
@@ -404,13 +402,12 @@
 								<span class="date">2022.01 - 2023.04(1년 4개월)</span>
 								<h2>Machine Learning Engineer</h2>
 								<span class="position">Cloud & AI Platform Group</span>
-								<p>NLU 모델 연구개발 및 훈련, STT 추론서버 Refactoring<br /></p>
+								<p>NLP 모델 연구개발 및 훈련, STT 추론서버 Refactoring<br /></p>
 								<b class="text-primary">주요 업무 </b>
 								<div>
-									<div> - Cafe 키오스크 NLU NER 훈련 및 추론 부분 개발</div>
+									<div> - Cafe 키오스크 NLP NER 훈련 및 추론 부분 개발</div>
 									<div> - 훈련 EDA 및 Data Cleaning</div>
-									<div> - 'S' 구청 시각 장애인 NLU 모델 개발 및 모델 성능 테스트 클라이언트 개발</div>
-									<div> - STT 모델 개발 및 Refactoring</div>
+									<div> - 'S' 구청 시각 장애인 NLP 모델 개발 및 모델 성능 테스트 클라이언트 개발</div>
 								</div>
 								</p>
 							</div>
@@ -419,7 +416,7 @@
 
 							<div class="text pl-3">
 								<span class="date">2018.06 - 2021.12(3년 6개월)</span>
-								<h2>Embedded System Engineer</h2>
+								<h2>Software Engineer</h2>
 								<span class="position">IV R&D 그룹</span>
 								<p>"V"사 임베디드 리눅스 음성인식 System Interface 개발<br /></p>
 								<b class="text-primary">주요 업무 </b>
@@ -446,17 +443,6 @@
 								<span class="position">중앙대학교</span>
 								<p>Computer Science 기초 지식을 4년간 탄탄히 쌓아 올렸습니다.<br /> 기초지식을 바탕으로 새로운 Tools에 적용하는 능력을 길렀습니다.
 								</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">2006-2009</span>
-								<br />
-								<span class="position">Oxstand International School</span>
-								<p>국제 학교를 다니면서 IT 개발에 필요한 영어 능력을 길렀습니다.</p>
 							</div>
 						</div>
 					</div>
