@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
 	<title>김영인 포트폴리오</title>
@@ -39,15 +39,16 @@
 				<ul class="navbar-nav nav ml-auto">
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#Stack" class="nav-link"><span>Stack</span></a></li>
+					<li class="nav-item"><a href="#stack-section" class="nav-link"><span>Stack</span></a></li>
 					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-					<li class="nav-item"><a href="#works" class="nav-link"><span>Experience</span></a></li>
-					<li class="nav-item"><a href="#edu" class="nav-link"><span>Education</span></a></li>
+					<li class="nav-item"><a href="#works-section" class="nav-link"><span>Experience</span></a></li>
+					<li class="nav-item"><a href="#edu-section" class="nav-link"><span>Education</span></a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<section class="hero-wrap js-fullheight">
+	<main id="main-content" role="main">
+	<section class="hero-wrap js-fullheight" id="home-section">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
@@ -55,13 +56,11 @@
 					<div class="text text-center">
 						<h1>김영인</h1>
 						<h2 class="text-primary"><u>
-								MLOps 엔지니어<br>
-								머신러닝 엔지니어
+							AI Engineer<br>
 						</u></h2>
 					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 		<div class="mouse">
 			<a href="#" class="mouse-icon">
@@ -88,7 +87,7 @@
 							<p>
 								<b>새로운 지식을 연구하여<br />
 									안정적으로 모델이나 제품에 기술을 적용하는 것에<br /> 
-									관심이 많은 MLOps/머신러닝 엔지니어 입니다.</b>
+									관심이 많은 AI 엔지니어 입니다.</b>
 							</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span> <span>김영인</span></li>
@@ -105,7 +104,7 @@
 								<span>Project complete</span>
 							</p> -->
 							<p><a target="_blank"
-									href="https://docs.google.com/document/d/1E0SP2RmKggftv6Lz1CIbAO-rg4KyOuE5_VMMdcg75oo/edit?usp=sharing"
+									href="https://docs.google.com/document/d/1XvD_lOlsMPSZy7Hx23oRr3EK-ygypXzk9KjGrMEyS10/edit?usp=sharing"
 									class="btn btn-primary py-3 px-3">이력서 바로가기</a></p>
 						</div>
 					</div>
@@ -121,15 +120,15 @@
 				<div class="col-md-3">
 					<nav id="navi">
 						<ul>
-							<li><a href="#Stack">Stack</a></li>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#works">Experience</a></li>
-							<li><a href="#edu">Education</a></li>
+							<li><a href="#stack-section">Stack</a></li>
+							<li><a href="#projects-section">Projects</a></li>
+							<li><a href="#works-section">Experience</a></li>
+							<li><a href="#edu-section">Education</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="col-md-9" id="core-section">
-					<div id="Stack" name="Stack" , style="padding-bottom: 50px;">
+					<div id="stack-section" style="padding-bottom: 50px;">
 						<h2 class="heading ftco-animate"><b>Stack</b></h2>
 						<div class="animate-box ftco-animate ">
 							<!-- <div><p><h3><b class="text-dark">library</b></h3></p></div> -->
@@ -138,22 +137,25 @@
 								<h6>Pytorch</h6>
 							</div>
 							<div class="btn btn-outline-secondary">
-								<h6>Pytorch-Lightning</h6>
-							</div>
-							<div class="btn btn-outline-secondary">
-								<h6>Hydra</h6>
-							</div>
-							<div class="btn btn-outline-secondary">
 								<h6>Docker-Compose</h6>
 							</div>
 							<div class="btn btn-outline-secondary">
-								<h6>Airflow</h6>
+								<h6>vLLM</h6>
+							</div>
+							<div class="btn btn-outline-secondary">
+								<h6>Pytriton</h6>
+							</div>
+							<div class="btn btn-outline-secondary">
+								<h6>Pytorch-Lightning</h6>
 							</div>
 							<div class="btn btn-outline-secondary">
 								<h6>MLFlow</h6>
 							</div>
 							<div class="btn btn-outline-secondary">
 								<h6>Pandas</h6>
+							</div>
+							<div class="btn btn-outline-secondary">
+								<h6>Airflow</h6>
 							</div>
 							<div class="btn btn-outline-secondary">
 								<h6>Celery</h6>
@@ -170,8 +172,48 @@
 							</p>
 						</div>
 					</div>
-					<div id="projects" class="Projects" , style="padding-bottom: 50px;">
-						<h2 id="projects-section" class="heading ftco-animate"><b>Projects</b></h2>
+					<div id="projects-section" class="Projects" style="padding-bottom: 50px;">
+						<h2 class="heading ftco-animate"><b>Projects</b></h2>
+						<div class="resume-wrap d-flex ftco-animate text-black">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2025.03 ~ (6 개월)</span>
+								<div class="d-flex">
+									<h2>CosyVoice 2.0 모델을 활용한 가상 선생님 음성 시스템 개발</h2>
+								</div>
+								<!-- <span class="position">미디어젠</span> -->
+								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
+									style="background-image: url(images/CV2_TTS_Demo.png);"></div>
+								<div>
+									<p>
+									<h5> <b class="text-primary">목표 </b></h5>
+									가상 선생님에 활용할 수 있는 TTS 모델을 연구하고, 합성된 목소리를 생성하고 제공하는 시스템을 개발
+								</p>
+								</div>
+								<div>
+									<p>
+									<h5> <b class="text-primary">세부 업무 </b></h5>
+									<div>8개의 TTS 모델을 연구하고 분석하여 스트리밍이 가능한 속도이고, 한국어 영어 발화가 자연스러운 모델 선정</div>
+									<div><br></div>
+									<div>ZeroShot 모델을 선정하여, 기존 모델 대비 필요한 오디오 데이터 양을 1080배 줄임</div>
+									<div>추론 로직 최적화를 통해 동시처리량을 기존 추론 로직 대비 3배 증가</div>
+									<div>vLLM, Pytriton, TensorRT를 도입하여 모델의 성능을 2배 증가</div>
+									<div>문단에서 문장으로 분리하여 추론하는 방식과 경량 VAD 도입하여 첫 오디오 출력 시간을 4배로 감소</div>
+									<div>영어 및 한국어 전처리 모듈을 개발하여 한국어, 영어 모두 자연스러운 발화를 하도록 구성</div>
+									<div><br></div>
+									<div>웹 기반 모델 데모 페이지를 구축하여 팀원들이 목소리 후보를 빠르게 비교, 선정할 수 있도록 제공</div>
+									</p>
+								</div>
+								<div>
+									<p>
+									<h5><b class="text-primary">기술 스택</b></h5>
+									<div>기술: Pytorch, vLLM, Pytriton, TensorRT, Onnx-Runtime, Transformers(HuggingFace), fastapi</div>
+								</div>
+								</p>
+							</div>
+						</div>
 						<div class="resume-wrap d-flex ftco-animate text-black">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
@@ -179,7 +221,7 @@
 							<div class="text pl-3">
 								<span class="date">2022.12 ~ 2024.03 (4 개월)</span>
 								<div class="d-flex">
-									<h2>Web으로 훈련이 가능한 머신러닝 파이프라인 개발</h2>
+									<h2>Web으로 TTS 훈련이 가능한 파이프라인 개발</h2>
 								</div>
 								<!-- <span class="position">미디어젠</span> -->
 								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
@@ -218,7 +260,7 @@
 							<div class="text pl-3">
 								<span class="date">2023.05-2023.11 (8 개월)</span>
 								<div class="d-flex">
-									<h2>자연스럽게 발화하는 Text-to-Speech Model 개발</h2>
+									<h2>VITS 기반 자연스럽게 발화하는 TTS 모델 개발</h2>
 								</div>
 								<span class="position">미디어젠</span>
 								<div class="project img ftco-animate d-flex justify-content-center align-items-center img-content"
@@ -231,7 +273,7 @@
 								</div>
 								<div>
 									<p>
-									<h5> <b class="text-primary">세부 업무 </h5></b>
+									<h5> <b class="text-primary">세부 업무 </b></h5>
 									<div>회사 전체에서 사용할 새로운 TTS 모델을 개발하는 것이 목적</div>
 									<div>관련 논문 12편을 비교 분석하고, Github내 모델 Repository를 조사</div>
 									<div><br></div>
@@ -371,14 +413,38 @@
 							</div>
 						</div>
 					</div>
-					<div id="works" class="Work Experience" , style="padding-bottom: 50px;">
+					<div id="works-section" class="Work Experience" style="padding-bottom: 50px;">
 						<h2 class="heading ftco-animate"><b>Work Experience</b></h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<h3><b class="text-primary">미디어젠 (5년 9개월)</b></h3>
+								<h3><b class="text-primary">아이스크림에듀, 2024.11 ~ (9개월, 재직중)</b></h3>
+							</div>
+						</div>
+						<div class="resume-wrap ftco-animate text-black">
+							<div class="text pl-3">
+								<span class="date">2024.11 - </span>
+								<h2>Machine Learning Engineer</h2>
+								<span class="position">아이스크림 에듀, AI 연구소</span>
+								<p>TTS 모델 연구 및 추론 서버 개발<br /></p>
+								<b class="text-primary">주요 업무 </b>
+								<div>
+									<div> - 차세대 전사 TTS를 위한 모델 분석과 선정</div>
+									<div> - 가상 선생님을 위한 TTS 모델 추론 서버 개발</div>
+									<div> - 가상 선생님을 위한 TTS 추론 서버 최적화</div>
+									<div> - 기존 상품의 TTS 서비스 이슈 해결</div>
+								</div>
+								</p>
+							</div>
+						</div>
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<h3><b class="text-primary">미디어젠, 2018.06 ~ 2024.03 (5년 9개월)</b></h3>
 							</div>
 						</div>
 						<div class="resume-wrap ftco-animate text-black">
@@ -407,7 +473,7 @@
 								<div>
 									<div> - Cafe 키오스크 NLP NER 훈련 및 추론 부분 개발</div>
 									<div> - 훈련 EDA 및 Data Cleaning</div>
-									<div> - 'S' 구청 시각 장애인 NLP 모델 개발 및 모델 성능 테스트 클라이언트 개발</div>
+									<div> - 시각 장애인 NLP 모델 개발 및 모델 성능 테스트 클라이언트 개발</div>
 									<div> - VAD 연구 및 추론 로직 개발</div>
 								</div>
 								</p>
@@ -430,7 +496,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="edu" class="Education" , style="padding-bottom: 50px;">
+					<div id="edu-section" class="Education" style="padding-bottom: 50px;">
 						<h2 class="heading ftco-animate"><b>Education</b></h2>
 						<div class="resume-wrap d-flex ftco-animate text-black">
 							<div class="icon d-flex align-items-center justify-content-center">
@@ -469,7 +535,7 @@
 						</div>
 						<div>
 							<h3 class="mb-4">Email Address</h3>
-							<p><a href="mailto:info@yoursite.com">angus5552@naver.com</a></p>
+							<p><a href="mailto:angus5552@naver.com">angus5552@naver.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -480,7 +546,7 @@
 						</div>
 						<div>
 							<h3 class="mb-4">Github</h3>
-							<p><a href="#">https://github.com/angus5552</a></p>
+							<p><a href="https://github.com/angus5552" target="_blank" rel="noopener noreferrer">https://github.com/angus5552</a></p>
 						</div>
 					</div>
 				</div>
